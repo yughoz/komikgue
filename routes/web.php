@@ -29,6 +29,7 @@ Route::post('/mangaku/mangaDetailChapter', 'MangakuController@mangaDetailChapter
 Route::post('/mangaku/chapterDetail', 'MangakuController@chapterDetail');
 Route::post('/mangaku/latestRelease', 'MangakuController@latestRelease');
 Route::post('/mangaku/mangaList', 'MangakuController@mangaList');
+Route::post('/mangaku/mangaListSearch', 'MangakuController@mangaListSearch');
 Route::post('/mangaku/kategoriList', 'MangakuController@kategoriList');
 
 Route::post('/Samehada/listDownload', 'SamehadaController@listDownload');
